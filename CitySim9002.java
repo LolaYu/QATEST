@@ -3,8 +3,8 @@ import java.util.Random;
 
 public class CitySim9002 {
 	
-	final static int[] sizeTable = { 9, 99, 999, 9999, 99999, 999999, 9999999,    
-            99999999, 999999999, Integer.MAX_VALUE };
+final static int[] sizeTable = { 9, 99, 999, 9999, 99999, 999999, 9999999,99999999, 999999999, Integer.MAX_VALUE };
+    
     static int sizeOfInt(int x) {    
         for (int i = 0;; i++)    
             if (x <= sizeTable[i])    
@@ -16,10 +16,10 @@ public class CitySim9002 {
 	   
 	Choose choose=new Choose();
 
-    int seed= Integer.parseInt(args[0]);
+        int seed= Integer.parseInt(args[0]);
 		 
-		// check whether the passed-in argument is a valid integer 
-		// if false, then cease execution 
+        // check whether the passed-in argument is a valid integer 
+        // if false, then cease execution 
 	if (seed == (int)seed && seed > 0 && sizeOfInt(seed)==1) {
 	      System.out.println("Welcome to CitySim!  Your seed is "  + seed +" .");
 		} else {
