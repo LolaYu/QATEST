@@ -21,7 +21,7 @@ final static int[] sizeTable = { 9, 99, 999, 9999, 99999, 999999, 9999999,999999
         // check whether the passed-in argument is a valid integer 
         // if false, then cease execution 
 	if (seed == (int)seed && seed > 0 && sizeOfInt(seed)==1) {
-	      System.out.println("Welcome to CitySim!  Your seed is "  + seed +" .");
+	      System.out.println("Welcome to CitySim!  Your seed is "  + seed +".");
 		} else {
 			System.out.println("Please enter one integer argument, seed");
 		    System.exit(0);
