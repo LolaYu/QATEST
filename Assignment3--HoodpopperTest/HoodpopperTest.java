@@ -12,7 +12,7 @@ import org.testng.Assert;
 public class HoodpopperTest {
 	static WebDriver driver = new HtmlUnitDriver();
 	
-	// Start at the home page for herokuapp for each test
+	// Start at the home page for Hoodpopper for each test
 	@Before
 	public void setUp() throws Exception {
 		driver.get("http://lit-bayou-7912.herokuapp.com/");
